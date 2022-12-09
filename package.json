@@ -1,0 +1,19 @@
+{
+    "name": "@rahadiana/bssn_stamps_generator",
+    "version": "0.0.2",
+    "description": "a warper to generate stamps for pdf signature.",
+    "main": "src/GenerateStamps.js",
+    "scripts": {
+        "test": "node test/test",
+        "release": "standard-version && git push --follow-tags && npm publish"
+    },
+    "author": "rahadiana nugraha <rahadiana.nugrha>",
+    "license": "MIT",
+    "dependencies": {
+        "@pemkotbekasi/node_response_standard": "^0.0.2",
+        "jimp": "^0.16.2"
+    },
+    "devDependencies": {
+        "standard-version": "^9.5.0"
+    }
+}
