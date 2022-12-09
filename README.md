@@ -7,7 +7,7 @@ a warper to generate e-signature stamps
 
 Using npm:
 
-    npm i @rahadiana/bssn-stamps-generator
+    npm i @rahadiana/bssn_stamps_generator
 
 
 **USAGE**
