@@ -1,6 +1,6 @@
 {
     "name": "@rahadiana/bssn_stamps_generator",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "a warper to generate stamps for pdf signature.",
     "main": "./src/GenerateStamps.js",
     "scripts": {
