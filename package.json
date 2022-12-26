@@ -10,7 +10,7 @@
     "author": "rahadiana nugraha <rahadiana.nugrha>",
     "license": "MIT",
     "dependencies": {
-        "@pemkotbekasi/node_response_standard": "^0.0.2",
+        "@rahadiana/node_response_standard": "^0.0.1",
         "jimp": "^0.16.2"
     }
 }
