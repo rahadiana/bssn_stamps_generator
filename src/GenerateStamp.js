@@ -1,5 +1,5 @@
 'use strict';
-const {ResponseHandler} = require('@pemkotbekasi/node_response_standard')
+const {ResponseHandler} = require('@rahadiana/node_response_standard')
 const GenerateStamp = function (startup) {
     return new Promise(async (resolve, reject) => {
         try {
@@ -11,7 +11,7 @@ const GenerateStamp = function (startup) {
             }
 
             const Jimp = require("jimp");
-            const LOGO = "https://raw.githubusercontent.com/rahadiana/bssn-stamps-generator/main/src/img" +
+            const LOGO = "https://raw.githubusercontent.com/rahadiana/bssn_stamps_generator/main/src/img" +
                     "/logo.png";
             const LOGO_MARGIN_PERCENTAGE = 5;
             const data = JSON.parse(JSON.stringify(startup))[0]
@@ -19,7 +19,7 @@ const GenerateStamp = function (startup) {
                 ? ImageProxy(LOGO)
                 : ImageProxy(data.logo);
             const ORIGINAL_IMAGE = ImageProxy(
-                "https://raw.githubusercontent.com/rahadiana/bssn-stamps-generator/main/src/img" +
+                "https://raw.githubusercontent.com/rahadiana/bssn_stamps_generator/main/src/img" +
                 "/input.png"
             );
             const [image, logo] = await Promise.all(

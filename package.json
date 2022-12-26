@@ -4,8 +4,7 @@
     "description": "a warper to generate stamps for pdf signature.",
     "main": "./src/GenerateStamps.js",
     "scripts": {
-        "test": "node test/test",
-        "release": "standard-version && git push --follow-tags && npm publish"
+        "test": "node test/test"
     },
     "author": "rahadiana nugraha <rahadiana.nugrha>",
     "license": "MIT",
